@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card__prof{
+    margin-top: 20px;
+}
+
+.card__button{
+    background-color: darkorange;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.card__button:focus{
+    outline: none;
+}
+
+.about{
+    margin: 30px;
+    padding: 20px;
+}
+
+.about__title{
+    margin-bottom: 20px;
+}
+
+.interest{
+    background-color: purple;
+    color: black;
+    display: inline-block;
+    width: 200px;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0;
+    height: 200px;
+    vertical-align: top;
+}
+
+.interest__title{
+    margin-bottom: 15px;
+}
+
+.interest__list{
+    padding-left: 20px;
+}
+
+.project{
+    background-color: orangered;
+    color: black;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    height: 180px;
+}
+
+.project__title{
+    margin-bottom: 15px;
+}
+
+.sectionend{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.form{
+    padding: 30px;
+}
+
+.Name{
+    padding: 10px;
+    padding-right: 20px;
+    border: none;
+    border-bottom: 2px black solid;
+}
+
+.Name:focus{
+    outline: none;
+}
+
+.submit__button{
+    background-color: orangered;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
